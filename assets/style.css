@@ -1,4 +1,4 @@
-/* Font Style */
+
 :root {
     --light-green: rgb(143, 182, 131);
     --dark-green: rgb(0, 92, 32);
@@ -7,6 +7,7 @@
     --white: white;
 }
 
+/* Font Style */
 *{ 
     font-family: "Times New Roman";
 }
@@ -91,6 +92,9 @@ a {
     width: 30%;
     align-content: center;
 }
+
+#work
+
 #work_img{
     height: 80%;
     width: 100%;
@@ -118,11 +122,18 @@ a {
   h2,
   h3 {
     text-align: center;
-    background-color: rgb(255, 243, 240);
-    color:rgb(62, 104, 87)
-
+    /* background-color: rgb(255, 243, 240); */
+    color: white;
   }
 
+  #work {
+    text-align: center;
+    color: black;
+  }
+
+  #resume {
+    color:black;
+  }
   #work1 {
     width:80%;
     height: 80%;
@@ -154,6 +165,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     
   }
   
