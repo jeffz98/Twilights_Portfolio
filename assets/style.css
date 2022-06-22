@@ -1,4 +1,4 @@
-
+/* Global color variables */
 :root {
     --light-green: rgb(143, 182, 131);
     --dark-green: rgb(0, 92, 32);
@@ -9,7 +9,7 @@
 
 /* Font Style */
 *{ 
-    font-family: "Times New Roman";
+    font-family:sans-serif;
 }
 
 /* header style */
@@ -24,12 +24,14 @@ header {
     justify-content: space-around;
     
   }
-  
+
+  /* ensures the flexboxes wrap */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* formats the cards and styles them with aligning, background, padding */
 .card {
     display: flex;
     flex-direction: column;
@@ -41,21 +43,13 @@ header {
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
-    background: var(--gradient-green);
+    background: peachpuff;
     color: var(--white);
 
-    transition-duration: 400ms;
-    transition-property: background, transform;
+    /* transition-duration: 400ms; */
+    /* transition-property: background, transform; */
 }
 
-pre {
-    white-space: pre-line;
-    background-color: var(--white);
-    color: var(--dark-green);
-    border-radius: 10px;
-    padding: 25px;
-    user-select: all;
-}
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Adjusts card size */
@@ -79,22 +73,21 @@ li {
     margin: 1rem;
 }
   
-  
+/*formats links  */
 a {
     text-decoration: none;
     color:black;
     width: 80%;
 }
 
-
+/* formatting prof pic size */
 #prof_pic {
     height: 20%;
     width: 30%;
     align-content: center;
 }
 
-#work
-
+/* formats images under work section */
 #work_img{
     height: 80%;
     width: 100%;
@@ -102,63 +95,62 @@ a {
     background-size: cover;
     background-position: center;
     display: block;
-  }
-  body {
+}
+
+  /* styles body */
+body {
     position: relative;
     margin: 0;
     padding: 0;
-  }
+}
   
-  main {
+  /* formats main */
+main {
     padding-top: 100px;
-  }
+}
   
-  p {
+  /* formats paragraphs */
+p {
     width: 80%;
     margin: auto;
-  }
+}
   
-  h1,
-  h2,
-  h3 {
+/* formats headers */
+h1,
+h2,
+h3 {
     text-align: center;
     /* background-color: rgb(255, 243, 240); */
-    color: white;
-  }
+    color: black;
+}
 
-  #work {
+
+#work {
     text-align: center;
     color: black;
-  }
+}
 
-  #resume {
+#resume {
     color:black;
-  }
-  #work1 {
+}
+
+#work1 {
     width:80%;
     height: 80%;
     margin: 5%;
-  }
-  figcaption {
+}
+
+figcaption {
     text-align: center;
     background-color: aquamarine;
-  }
+}
   
-  /* header {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-    height: 100px;
-    border-bottom: 10px solid darkblue;
-    background-color: lightblue;
-  } */
-  
-  #work_pics {
+#work_pics {
     width: 50%;
     height: 50%;
-  }
-  #contact {
+}
+
+#contact {
     /* position: fixed; */
     background-color: azure;
     color: blueviolet;
@@ -167,51 +159,53 @@ a {
     align-items: center;
     text-align: center;
     
-  }
-  
-  .form_deets {
+}
+
+/* style for headers */
+.form_deets {
     margin: 1rem;
     border: 2px solid crimson;
     border-radius: 16px;
     padding: 2rem;
   
-  }
-  
-  .form_deets2 {
+}
+
+/* secondary styling for headers */
+.form_deets2 {
     margin: 1rem;
     border: 2px solid rgb(220, 20, 183);
     border-radius: 16px;
     background-color: deepskyblue;
     padding: 2rem;
   
-  }
+}
   
-  button:hover {
+button:hover {
     cursor: pointer;
     opacity: 0.7;
   
-  }
+}
   
-  button {
+button {
     position: relative;
-  }
+}
 
   
   
-  /* footer style */
-  footer {
+/* footer style */
+footer {
     display:flex;
     flex-direction: column;
     position:relative;
     color: black;
     align-items:center;
     font-size: large;
-  }
+}
   
-  footer nav {
+footer nav {
     margin: 1rem;
     font-size: 1rem;
-  }
+}
   
   
   
