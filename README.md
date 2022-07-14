@@ -11,10 +11,8 @@ This project was put together to create a space in which I could showcase my wor
 
 HTML, CSS, Git.
 
-![Screenshot of Portfolio](https://snipboard.io/8BSlrD.jpg)
-![Screenshot of Portfolio](https://snipboard.io/sQqoJ1.jpg)
-![Screenshot of Portfolio](https://snipboard.io/ni4dCm.jpg)
-![Screenshot of Portfolio](https://snipboard.io/kPJ4o7.jpg)
+![Demo Gif](./Images/Portfolio-gif.gif)
+
 
 ## Authors
 
